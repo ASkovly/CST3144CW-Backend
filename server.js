@@ -5,7 +5,7 @@ var app = express();
 
 app.use(function(request, response) { // middleware
     console.log("In comes a request to: " + request.url);
-    response.end("Hello, world!");
+    response.end("Hello, world!!");
 });
 
 app.listen(3000, function() {
